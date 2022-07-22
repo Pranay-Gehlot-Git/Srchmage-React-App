@@ -52,7 +52,13 @@ const  Dialogbox= () => {
             <Typography variant="h5" style={{marginLeft: 550}}> About Us </Typography>
           </Toolbar>
         </AppBar>
-        <p>&nbsp;</p><p>&nbsp;</p><p>This project is all about searching images for personal works this project is all about saving our self from the cookies that fetch by the other website and start showing you similar content as Ads. The technology is used in this project is React Js and Material UI and Development will be done in Visual Code IDE and we are using the Pixabay API for images. You can see any website to download the images as a reference. Our website contains only two tabs one is to search the images and the other one is to set the limits of images that are shown by search.</p><p>The problem is common but people do not know that how much they spend the data from their interest and get targeted by the websites through Ads by accepting the cookies. So, here we create a website which does not fetch cookies and responds quickly.</p><p>We are creating a website that does not contain Ads and Cookies to help people to search images freely in good quality. The technology is used in this project is React Js and Material UI and Development will be done in Visual Code IDE and we are using the Pixabay API for images.</p>
+        <div style={ {padding: 20} }>
+       <h4><p>&nbsp;</p><p>&nbsp;</p><p>This project is all about searching images for personal works this project is all about saving our self from the cookies that fetch by the other website and start showing you similar content as Ads. The technology is used in this project is React Js and Material UI and Development will be done in Visual Code IDE and we are using the Pixabay API for images. You can see any website to download the images as a reference. Our website contains only two tabs one is to search the images and the other one is to set the limits of images that are shown by search.</p><p>The problem is common but people do not know that how much they spend the data from their interest and get targeted by the websites through Ads by accepting the cookies. So, here we create a website which does not fetch cookies and responds quickly.</p><p>We are creating a website that does not contain Ads and Cookies to help people to search images freely in good quality. The technology is used in this project is React Js and Material UI and Development will be done in Visual Code IDE and we are using the Pixabay API for images.</p></h4>
+        </div>
+        <div style={{marginLeft: 450}}>
+              <h2>Made By @Pranay, Samiksha, Rudrakshi</h2>    
+
+        </div>
       </Dialog>
     </div>
   );
